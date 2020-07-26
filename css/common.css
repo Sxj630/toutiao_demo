@@ -1,0 +1,110 @@
+body,html{
+	height: 100%;
+	
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+.head{
+	height:1.59rem ;
+	border-bottom: solid 2px #55A532;
+	z-index: 1;
+}
+.search{
+	height: 0.73rem;
+	background: #c34943;
+	padding:0.11rem 0.27rem;
+}
+.headicon{
+	background-color: #ffffff;
+	height: 0.51rem;
+	border-radius: 0.05rem;
+	padding-top: 0.22rem;
+}
+
+.headicon i{
+	margin-left: 0.23rem;
+	font-size: 0.3rem;
+}
+.info{
+	margin-left: 0.23rem;
+	display: inline-block;
+	width: 5rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 1;
+	font-size: 0.3rem;
+}
+.list{
+	overflow-x: auto;
+	padding-left: 0.1rem;
+}
+
+.head-foot ul{
+	width: 200%;
+	height: 0.64rem;
+}
+.head-foot li{
+	float: left;
+	padding: 0 0.19rem;
+	line-height: 0.64rem;
+	font-size: 0.28rem;
+}
+
+.head-foot li a
+{
+color:#333333;
+
+}
+.head-foot{
+	position: relative;
+}
+.list-icon{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0.74rem;
+	height: 0.64rem;
+	font-size: 0.29rem;
+	color: #1c1c1c;
+	background-color: rgba(255,255,255,0.9);
+	text-align: center;
+	line-height: 0.64rem;
+}
+.list-icon .icon-liebiao{
+	font-size: 0.3rem;
+}
+
+
+.section{
+	flex: 1;
+	overflow: auto;
+}
+.foot{
+	border-top: #e2e2e2 solid 1px;
+	height: 1.32rem;
+	background-color: #e7e7e7;
+	width: 100%;
+}
+.foot ul{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.foot ul li
+{
+	flex:1;
+	height: 100%;
+	
+}
+.foot ul li a{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.foot ul li a .iconfont{font-size: 0.36rem;line-height: 1;}
+.foot ul li a span{font-size: 0.16rem;line-height: 1;margin-top: 0.06rem;}
